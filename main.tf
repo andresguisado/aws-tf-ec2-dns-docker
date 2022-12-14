@@ -1,6 +1,6 @@
 # Module aws-tfmodule-ec2-docker
 module "aws_ec2_docker" {
-  source              = "git::git@github.com:andresguisado/aws-tfmodule-ec2-dns-docker.git"
+  source              = "github.com/andresguisado/aws-tfmodule-ec2-dns-docker"
   client_name         = "${var.client_name}"
   product             = "${var.product}"
   environment         = "${var.environment}"
